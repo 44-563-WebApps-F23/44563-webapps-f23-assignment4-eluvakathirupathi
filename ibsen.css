@@ -28,3 +28,20 @@
 .fourthcitizen{
     color:purple;  
 }
+table,th,td,tr{
+    border: 3px solid;
+    color: blue;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 2px;
+}
+th{
+    background-color:darkturquoise;
+}
+td{
+    padding: 2px;
+    color: #000;
+}
+tr:nth-child(odd){
+    background-color:beige;
+}
