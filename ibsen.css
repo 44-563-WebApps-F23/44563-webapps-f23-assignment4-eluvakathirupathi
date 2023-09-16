@@ -45,3 +45,8 @@ td{
 tr:nth-child(odd){
     background-color:beige;
 }
+.name:hover{
+    color: red;
+    text-shadow: 2px 2px grey;
+    border: solid 3px;
+}
