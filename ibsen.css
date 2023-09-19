@@ -50,13 +50,26 @@ tr:nth-child(odd){
     text-shadow: 2px 2px grey;
     border: solid 3px;
 }
-ul{
+ul.navbar {
+    /* remove these */
     list-style-type: none;
     margin: 0;
-    padding:0;
-}
-li {
-    float:left;/* line up horizontally */
+    padding: 0;
+  
+  }
+  
+  ul.navbar li {
+    float:left;
     color:#000;
-    
+    background-color:grey;
+  }
+  
+  ul.navbar a {
+    display:block;
+    padding:8px
+  }
+  
+  ul.navbar a:hover {  
+    background-color: #555;
+    color:white;
   }
