@@ -50,26 +50,27 @@ tr:nth-child(odd){
     text-shadow: 2px 2px grey;
     border: solid 3px;
 }
-ul.navbar {
-    /* remove these */
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  
+    overflow: hidden;
+    background-color: green;
   }
   
-  ul.navbar li {
-    float:left;
-    color:#000;
-    background-color:grey;
+  li {
+    float: left;
   }
   
-  ul.navbar a {
-    display:block;
-    padding:8px
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
   
-  ul.navbar a:hover {  
-    background-color: #555;
-    color:white;
+  li a:hover {
+    background-color: grey;
   }
+ 
